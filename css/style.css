@@ -56,10 +56,13 @@ h2 {
 div.art {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 50px;
 }
 div.art div {
   width: 475px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;

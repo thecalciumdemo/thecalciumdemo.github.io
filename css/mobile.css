@@ -1,0 +1,45 @@
+@media screen and (max-width: 999px) {
+  iframe {
+    width: 600px;
+    height: 337.5px;
+  }
+  h1.title {
+    font-size: 96pt;
+  }
+  div.art div {
+    width: 300px;
+    height: 375px;
+  }
+  div.art img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 420px) {
+  div.art div p {
+    visibility: collapse;
+  }
+  div.art {
+    gap: 10px;
+  }
+  div.art div {
+    height: 310px;
+  }
+  .albums a img {
+    width: 150px;
+    height: 150px;
+  }
+  iframe {
+    width: 360px;
+    height: 202.5px;
+  }
+  h1.title {
+    font-size: 72pt;
+    line-height: 50pt;
+    margin-top: 12px;
+  }
+  nav {
+    visibility: collapse;
+    height: 0px;
+  }
+}
