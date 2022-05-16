@@ -79,15 +79,18 @@ div.secret {
   color: #000;
   display: block;
 }
-body.secretpage {
-  background-color: wheat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.secretpage h2 {
-  color: #000;
-}
 div.art div a img.gallery:hover{
   box-shadow: 0px 0px 5px 1px white;
+}
+body.secretpage{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body.secretpage div{
+  width: 800px;
+  height: 800px;
+  background-image: url(../img/rip.png);
+  background-size: cover;
 }
