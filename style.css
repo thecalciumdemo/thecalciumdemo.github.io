@@ -1,0 +1,147 @@
+html {
+  background-color: #559f87;
+}
+main {
+  height: 96.3vh;
+  position: relative;
+  background-image: url(img/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+footer {
+  background-color: #a6ada9;
+}
+div.soft,
+div.corner {
+  width: 150px;
+  text-align: center;
+}
+div.strange{
+    width: 72px;
+    text-align: center;
+}
+div.soft a,
+div.corner a,
+div.content a,
+div.piece a {
+  color: black;
+  text-decoration: none;
+}
+div.soft div {
+  padding: 12px;
+  text-align: center;
+}
+div.soft div:hover,
+div.corner:hover,
+div.content a:hover,
+div.piece a:hover {
+  text-decoration: underline;
+}
+div.corner {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+div.content{
+    background-color: #fff;
+    width: 50vw;
+    height: 50vh;
+    border-top: solid #a6ada9 32px;
+    border-left: solid #a6ada9 4px;
+    border-right: solid #a6ada9 4px;
+    border-bottom: solid #a6ada9 4px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: #000 5px 5px 7px;
+    padding: 10px;
+    position: absolute;
+    left: 24.5%;
+    top: 24%;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-color: #a6ada9 #fff;
+}
+div.gallery-content{
+    background-color: #fff;
+    width: 80vw;
+    height: 80vh;
+    border-top: solid #a6ada9 32px;
+    border-left: solid #a6ada9 4px;
+    border-right: solid #a6ada9 4px;
+    border-bottom: solid #a6ada9 4px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: #000 5px 5px 7px;
+    padding: 10px;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    overflow-y: scroll;
+    scrollbar-color: #a6ada9 #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    font-size: 5em;
+}
+h3{
+    font-size: 2em;
+}
+div.content h3{
+    padding-bottom: 0.5em;
+}
+div.close{
+    position: fixed;
+    top: 23%;
+    right: 25%;
+}
+div.back{
+    position: fixed;
+    top: 23%;
+    left: 25%;
+}
+div.raw{
+    width: 64px;
+    height: 64px;
+    background-image: url(img/Icons/RAW.png);
+}
+div.web,
+div.aliases,
+div.albums,
+div.art{
+    display: flex;
+    gap: 12px;
+}
+div.aliases a{
+    width: 72px;
+}
+div.albums a{
+    width: 132px;
+}
+div.art{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.piece{
+    padding: 25px;
+}
+div.piece img,
+div.piece a img{
+    max-height: 400px;
+    max-width: 40vw;
+}
+div.gclose{
+    position: fixed;
+    top: 5.4%;
+    right: 9%;
+}
+div.gback{
+    position: fixed;
+    top: 5.4%;
+    left: 10%;
+}
+div.gallery-content img{
+    height: 735px;
+}
